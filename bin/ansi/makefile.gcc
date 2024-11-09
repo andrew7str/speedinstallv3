@@ -1,0 +1,146 @@
+# MinGW/MinGW-w64 makefile for ANSICON.
+# Jason Hood, 11 March, 2006.  Updated 20 June, 2009.
+#
+# 19 November, 2010:
+#   explicitly use 64-bit flags, in case the compiler isn't.
+#
+# 13 December, 2011:
+#   use CMD for file operations, not programs from fileutils.
+#
+# 23 November, 2012:
+#   set the base address of the DLLs to AC0000[00] (AnsiCon).
+#
+# 17 & 18 July, 2013:
+#   work with 32-bit only, 64-bit only or multilib compilers;
+#   hide the commands (use V=1 to show them).
+#
+# 11 May, 2018:
+#   update for the 1.84 changes.
+#
+# Tested with:
+# * MinGW/gcc 6.3.0;
+# * tdm-gcc-5.1.0-3;
+# * tdm64-gcc-5.1.0-2;
+# * MSYS2/gcc 7.3.0.
+
+CC ?= gcc
+ifeq ($(origin CC),default)
+ifeq ($(CC),cc)
+CC = gcc
+endif
+endif
+WINDRES ?= windres
+CFLAGS = -O2 -Wall -Wno-multichar
+
+# Identify ansicon.exe using "ANSI" as a version number.
+IVER = -Wl,--major-image-version,20033,--minor-image-version,18771
+
+#ARCH = 32
+#ARCH = 64
+#ARCH = multi
+
+ifndef ARCH
+# Use the machine to distinguish between MinGW and MinGW-w64.
+ifneq (,$(findstring i686-w64,$(shell $(CC) -dumpmachine)))
+ARCH = 32
+else
+ifeq (,$(findstring 64,$(shell $(CC) -dumpmachine)))
+ARCH = 32
+else
+# It's 64-bit, if it's multi the lib name will be different.
+ifeq ($(shell $(CC) -m32 -print-libgcc-file-name),$(shell $(CC) -m64 -print-libgcc-file-name))
+ARCH = 64
+else
+ARCH = multi
+endif
+endif
+endif
+endif
+
+X86OBJS = x86/injdll.o x86/procrva.o x86/proctype.o x86/util.o
+X64OBJS = x64/injdll.o x64/procrva.o x64/proctype.o x64/util.o
+X6432OBJS = x86/injdll.o x86/procrva.o x64/proctype32.o x86/util.o
+
+# Determine the appropriate separator to run multiple commands - ";" for sh.exe
+# and "&" for CMD.EXE.  $(SHELL) is initially defined to "sh.exe" - if it
+# actually exists, it becomes the full path.
+ifneq ($(wildcard $(SHELL)),)
+SEP = ;
+else
+SEP = &
+endif
+
+V ?= 0
+ifeq ($(V),0)
+CCmsg = @echo $<$(SEP)
+RCmsg = $(CCmsg)
+LDmsg = @echo $@$(SEP)
+endif
+
+x86/%.o: %.c ansicon.h
+	$(CCmsg)$(CC) -m32 -c $(CFLAGS) $< -o $@
+
+x86/%v.o: %.rc version.h
+	$(RCmsg)$(WINDRES) -U _WIN64 -F pe-i386 $< $@
+
+x64/%.o: %.c ansicon.h
+	$(CCmsg)$(CC) -m64 -g -c $(CFLAGS) $< -o $@
+
+x64/%v.o: %.rc version.h
+	$(RCmsg)$(WINDRES) -F pe-x86-64 $< $@
+
+x64/%32.o: %.c
+	$(CCmsg)$(CC) -m32 -DW32ON64 $(CFLAGS) $< -c -o $@
+
+
+ifeq ($(ARCH),multi)
+all: ansicon32 ansicon64
+else
+all: ansicon$(ARCH)
+endif
+
+ansicon32: x86 x86/ANSI32.dll x86/ansicon.exe x64 x64/ANSI32.dll
+
+ansicon64: x64 x64/ANSI64.dll x64/ansicon.exe
+
+x86:
+	mkdir x86
+
+x86/ansicon.exe: x86/ansicon.o x86/ANSI32.dll x86/ansiconv.o
+	$(LDmsg)$(CC) -m32 $+ -s -o $@ $(IVER)
+
+x86/ANSI32.dll: x86/ANSI.o $(X86OBJS) x86/ansiv.o
+	$(LDmsg)$(CC) -m32 $+ -s -o $@ -mdll -nostdlib -lkernel32 -lntdll \
+		      -Wl,-shared,--image-base,0xAC0000,-e,_DllMain@12
+
+x64:
+	mkdir x64
+
+x64/ansicon.exe: x64/ansicon.o x64/ANSI64.dll x64/ansiconv.o
+	$(LDmsg)$(CC) -m64 $+ -s -o $@ $(IVER)
+
+x64/ANSI64.dll: x64/ANSI.o $(X64OBJS) x64/ansiv.o
+	$(LDmsg)$(CC) -m64 $+ -s -o $@ -mdll -nostdlib -lkernel32 -lntdll \
+		      -Wl,-shared,--image-base,0xAC000000,-e,DllMain
+
+x64/ANSI32.dll: x64/ANSI32.o $(X6432OBJS) x86/ansiv.o
+	$(LDmsg)$(CC) -m32 $+ -s -o $@ -mdll -nostdlib -lkernel32 -lntdll \
+		      -Wl,-shared,--image-base,0xAC0000,-e,_DllMain@12,--large-address-aware
+
+x86/ansicon.o:	version.h
+x86/ANSI.o:	version.h
+x86/util.o:	version.h
+x64/ansicon.o:	version.h
+x64/ANSI.o:	version.h
+x64/util.o:	version.h
+
+# Need two commands, because if the directory doesn't exist, it won't delete
+# anything at all.
+clean:
+ifneq ($(wildcard $(SHELL)),)
+	-rm -f x86/*.o 2>/dev/null
+	-rm -f x64/*.o 2>/dev/null
+else
+	-cmd /c "del x86\*.o 2>nul"
+	-cmd /c "del x64\*.o 2>nul"
+endif
