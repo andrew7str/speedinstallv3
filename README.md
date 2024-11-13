@@ -23,12 +23,27 @@
 
 ## 📜 Berikut Beberapa Tampilan pada menu tersebut 🕷🕸️
 ![Home Speed Install](./capture/home.png)
+
+## Software
 ![Software Speed Install](./capture/software.png)
+
+## Net Framework
 ![NetFramework Speed Install](./capture/netframework.png)
+
+## Aktivasi
+- Disarankan untuk mematikan AntiVirus atau Windows defender lainnya untuk melakukan patching, cracking, keygen, atau pun bypass aplikasi utama yang di inginkan.
 ![Aktivasi Speed Install](./capture/aktivasi.png)
+
+## Driver
 ![Driver Speed Install](./capture/driver.png)
+
+## Network
 ![Network Speed Install](./capture/network.png)
+
+## Utilites
 ![Utilites Speed Install](./capture/utilites.png)
+
+## AboutME
 ![Aboutme Speed Install](./capture/aboutme.png)
 
 
