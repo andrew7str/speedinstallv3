@@ -49,11 +49,26 @@
 
 ## Link Download 84GB 17Part 5GB/Part
 
-[Part 1](https://qiwi.gg/file/fVx33729-speedinstallv3)
+| Part | Link |
+|------|------|
+| Part 1 | [Download Part 1](https://qiwi.gg/file/fVx33729-speedinstallv3) |
+| Part 2 | [Download Part 2](https://qiwi.gg/file/92Di5982-speedinstallv3) |
+| Part 3 | [Download Part 3](https://example.com/part3) |
+| Part 4 | [Download Part 4](https://example.com/part4) |
+| Part 5 | [Download Part 5](https://example.com/part5) |
+| Part 6 | [Download Part 6](https://example.com/part6) |
+| Part 7 | [Download Part 7](https://example.com/part7) |
+| Part 8 | [Download Part 8](https://example.com/part8) |
+| Part 9 | [Download Part 9](https://example.com/part9) |
+| Part 10 | [Download Part 10](https://qiwi.gg/file/dDbD0668-speedinstallv3) |
+| Part 11 | [Download Part 11](https://example.com/part11) |
+| Part 12 | [Download Part 12](https://example.com/part12) |
+| Part 13 | [Download Part 13](https://example.com/part13) |
+| Part 14 | [Download Part 14](https://example.com/part14) |
+| Part 15 | [Download Part 15](https://example.com/part15) |
+| Part 16 | [Download Part 16](https://example.com/part16) |
+| Part 17 | [Download Part 17](https://example.com/part17) |
 
-[Part 2](https://qiwi.gg/file/92Di5982-speedinstallv3)
-
-[Part 10](https://qiwi.gg/file/dDbD0668-speedinstallv3)
 
 
 ## Pemesanan
