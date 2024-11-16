@@ -51,6 +51,7 @@
 
 [Part 1](https://qiwi.gg/file/fVx33729-speedinstallv3)
 
+[Part 2](https://qiwi.gg/file/92Di5982-speedinstallv3)
 
 [Part 10](https://qiwi.gg/file/dDbD0668-speedinstallv3)
 
