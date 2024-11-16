@@ -55,7 +55,7 @@
 | Part 2 | [Download Part 2](https://qiwi.gg/file/92Di5982-speedinstallv3) |
 | Part 3 | [Download Part 3](https://qiwi.gg/file/hvSK3125-speedinstallv3) |
 | Part 4 | [Download Part 4](https://qiwi.gg/file/9D1j1506-speedinstallv3) |
-| Part 5 | [Download Part 5](https://example.com/part5) |
+| Part 5 | [Download Part 5](https://qiwi.gg/file/d1V18455-speedinstallv3) |
 | Part 6 | [Download Part 6](https://example.com/part6) |
 | Part 7 | [Download Part 7](https://example.com/part7) |
 | Part 8 | [Download Part 8](https://example.com/part8) |
