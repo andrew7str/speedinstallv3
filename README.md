@@ -47,7 +47,7 @@
 ![Aboutme Speed Install](./capture/aboutme.png)
 
 
-## Link Download 88GB 17Part 5GB/Part
+## Link Download 84GB 17Part 5GB/Part
 
 [Part 1](https://qiwi.gg/file/fVx33729-speedinstallv3)
 
@@ -60,6 +60,16 @@
 Jika Anda tertarik untuk melakukan pemesanan, silakan klik link berikut:
 
 [Pesan Sekarang](https://andrew-exe.blogspot.com/2024/09/speed-install-v3.html)
+
+## VIA MBANKING BRI
+
+530801020361530
+
+## VIA GOPAY
+
+089618329089
+
+_____________________________________
 
 ## Traktir Kopi
 
