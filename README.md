@@ -65,7 +65,7 @@ Jika Anda tertarik untuk melakukan pemesanan, silakan klik link berikut:
 
 530801020361530
 
-## VIA GOPAY
+## VIA GOPAY / ShoppePay
 
 089618329089
 
