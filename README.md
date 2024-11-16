@@ -47,6 +47,13 @@
 ![Aboutme Speed Install](./capture/aboutme.png)
 
 
+## Link Download 88GB 17Part 5GB/Part
+
+[Part 1](https://qiwi.gg/file/fVx33729-speedinstallv3)
+
+
+[Part 10](https://qiwi.gg/file/dDbD0668-speedinstallv3)
+
 
 ## Pemesanan
 
