@@ -67,7 +67,7 @@
 | Part 14 | [Download Part 14](https://qiwi.gg/file/hzWi3947-speedinstallv3) |
 | Part 15 | [Download Part 15](https://qiwi.gg/file/2HYz8091-speedinstallv3) |
 | Part 16 | [Download Part 16](https://qiwi.gg/file/dqHh9379-speedinstallv3) |
-| Part 17 | [Download Part 17](https://example.com/part17) |
+| Part 17 | [Download Part 17](https://qiwi.gg/file/ejbg1617-speedinstallv3) |
 
 
 
