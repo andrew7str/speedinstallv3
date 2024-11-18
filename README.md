@@ -21,6 +21,12 @@
 - ✅ Utilites
 - ✅ Gaming Mode
 
+## Support Windows :
+- ✅ Windows 7
+- ✅ Windows 8
+- ✅ Windows 10
+- ✅ Windows 11
+
 ## 📜 Berikut Beberapa Tampilan pada menu tersebut 🕷🕸️
 ![Home Speed Install](./capture/home.png)
 
