@@ -1,37 +1,4 @@
-ÿþ&cls::[Bat To Exe Converter]
-::
-::YAwzoRdxOk+EWAjk
-::fBw5plQjdCuDJEG05k06LRhAcDeSOW6+RpwS+/z64+a7rkIaW6w2e4C7
-::YAwzuBVtJxjWCl3EqQJgSA==
-::ZR4luwNxJguZRRnk
-::Yhs/ulQjdF+5
-::cxAkpRVqdFKZSjk=
-::cBs/ulQjdF+5
-::ZR41oxFsdFKZSDk=
-::eBoioBt6dFKZSDk=
-::cRo6pxp7LAbNWATEpCI=
-::egkzugNsPRvcWATEpCI=
-::dAsiuh18IRvcCxnZtBJQ
-::cRYluBh/LU+EWAjk
-::YxY4rhs+aU+IeA==
-::cxY6rQJ7JhzQF1fEqQIme1UEAlXi
-::ZQ05rAF9IBncCkqN+0xwdVtCH0rScjra
-::ZQ05rAF9IAHYFVzEqQIDOB5RSESrMniuB7kQqP6or9+rlmQwddYaGA==
-::eg0/rx1wNQPfEVWB+kM9LVsJDDeSOW6+RpwS+/z64+bHtB59
-::fBEirQZwNQPfEVWB+kM9LVsJDDeSOW6+RpwS+/z64+bn
-::cRolqwZ3JBvQF1fEqQIdDTZkaTavCU+bLvU4ycTawqq3h2M6cdAVWa71ug==
-::dhA7uBVwLU+EWHGF90lwGxRYWReWNWS0Zg==
-::YQ03rBFzNR3SWATElA==
-::dhAmsQZ3MwfNWATE1G8iZh5MSWQ=
-::ZQ0/vhVqMQ3MEVWAtB9wSA==
-::Zg8zqx1/OA3MEVWAtB9wSA==
-::dhA7pRFwIByZRRmn5kcxPB4Ubh3CZiuXFPsZ8O2b
-::Zh4grVQjdCuDJEG05k06LRhAcBeSOW6+D7sP/On34/zUnn4NUec7UYHIzrWCLPZApBOwO5M10xo=
-::YB416Ek+ZW8=
-::
-::
-::978f952a14a936cc963da21a135fa983
-@echo off
+ÿþ&cls@echo off
 @echo off
 :: Periksa apakah ANSICON sudah aktif
 if not defined ANSICON (
@@ -46,6 +13,7 @@ echo off
 cls
 
 del "SpeedInstallv3_backup.exe"
+del "SpeedInstallv3_backup.bat"
 
 @echo off
 @echo off
@@ -816,8 +784,9 @@ set "FOLDER=%~dp0"
 :: Path ke wget
 set "WGET_PATH=%~dp0wget\wget.exe"
 
-:: URL file SpeedInstallv3.exe di GitHub
-set "REPO_URL=https://raw.githubusercontent.com/andrew7str/speedinstallv3/main/SpeedInstallv3.exe"
+:: URL file SpeedInstallv3.exe dan SpeedInstallv3.bat di GitHub
+set "REPO_EXE_URL=https://raw.githubusercontent.com/andrew7str/speedinstallv3/main/SpeedInstallv3.exe"
+set "REPO_BAT_URL=https://raw.githubusercontent.com/andrew7str/speedinstallv3/main/SpeedInstallv3.bat"
 
 echo Checking internet connection...
 
@@ -830,12 +799,13 @@ if errorlevel 1 (
 
 echo Internet connected. Checking for updates...
 
+:: ================================================================
 :: Unduh versi terbaru SpeedInstallv3.exe dari GitHub
-"%WGET_PATH%" -O "%FOLDER%temp_SpeedInstallv3.exe" "%REPO_URL%" --no-check-certificate
+"%WGET_PATH%" -O "%FOLDER%temp_SpeedInstallv3.exe" "%REPO_EXE_URL%" --no-check-certificate
 
 :: Cek jika download berhasil
 if exist "%FOLDER%temp_SpeedInstallv3.exe" (
-    echo Update found. Updating...
+    echo Update found for SpeedInstallv3.exe. Updating...
 
     :: Backup file lama jika dibutuhkan
     if exist "%FOLDER%SpeedInstallv3.exe" (
@@ -845,18 +815,42 @@ if exist "%FOLDER%temp_SpeedInstallv3.exe" (
 
     :: Ganti dengan file terbaru
     rename "%FOLDER%temp_SpeedInstallv3.exe" "SpeedInstallv3.exe"
-    echo Update complete. Restarting...
+    echo Update complete for SpeedInstallv3.exe.
 
     :: Hapus file backup setelah update selesai
     if exist "%FOLDER%SpeedInstallv3_backup.exe" del "%FOLDER%SpeedInstallv3_backup.exe"
-
-    :: Jalankan file yang baru saja diupdate
-    start "" "%FOLDER%SpeedInstallv3.exe"
-    exit
 ) else (
-    echo No update found or failed to download update. Returning to menu...
-    goto :menusi
+    echo No update found or failed to download SpeedInstallv3.exe.
 )
+
+:: ================================================================
+:: Unduh versi terbaru SpeedInstallv3.bat dari GitHub
+"%WGET_PATH%" -O "%FOLDER%temp_SpeedInstallv3.bat" "%REPO_BAT_URL%" --no-check-certificate
+
+:: Cek jika download berhasil
+if exist "%FOLDER%temp_SpeedInstallv3.bat" (
+    echo Update found for SpeedInstallv3.bat. Updating...
+
+    :: Backup file lama jika dibutuhkan
+    if exist "%FOLDER%SpeedInstallv3.bat" (
+        if exist "%FOLDER%SpeedInstallv3_backup.bat" del "%FOLDER%SpeedInstallv3_backup.bat"
+        rename "%FOLDER%SpeedInstallv3.bat" "SpeedInstallv3_backup.bat"
+    )
+
+    :: Ganti dengan file terbaru
+    rename "%FOLDER%temp_SpeedInstallv3.bat" "SpeedInstallv3.bat"
+    echo Update complete for SpeedInstallv3.bat.
+
+    :: Hapus file backup setelah update selesai
+    if exist "%FOLDER%SpeedInstallv3_backup.bat" del "%FOLDER%SpeedInstallv3_backup.bat"
+) else (
+    echo No update found or failed to download SpeedInstallv3.bat.
+)
+
+:: ================================================================
+:: Jalankan file yang baru saja diupdate
+start "" "%FOLDER%SpeedInstallv3.bat"
+exit
 
 
 :::::::::::::::::AKTIVASI:::::::::::::::
