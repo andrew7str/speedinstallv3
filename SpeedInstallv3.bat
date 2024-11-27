@@ -1,4 +1,37 @@
-ÿþ&cls@echo off
+ÿþ&cls::[Bat To Exe Converter]
+::
+::YAwzoRdxOk+EWAjk
+::fBw5plQjdCuDJEG05k06LRhAcBeSOW6+D7sP/On34/zUnkESU+1xcYzUug==
+::YAwzuBVtJxjWCl3EqQJgSA==
+::ZR4luwNxJguZRRnk
+::Yhs/ulQjdF+5
+::cxAkpRVqdFKZSDk=
+::cBs/ulQjdF+5
+::ZR41oxFsdFKZSDk=
+::eBoioBt6dFKZSDk=
+::cRo6pxp7LAbNWATEpCI=
+::egkzugNsPRvcWATEpSI=
+::dAsiuh18IRvcCxnZtBJQ
+::cRYluBh/LU+EWAjk
+::YxY4rhs+aU+IeA==
+::cxY6rQJ7JhzQF1fEqQIme1UEAlXi
+::ZQ05rAF9IBncCkqN+0xwdVtCH0rScjra
+::ZQ05rAF9IAHYFVzEqQIDOB5RSESrMniuB7kQqP6or9+rlmQwddYaGA==
+::eg0/rx1wNQPfEVWB+kM9LVsJDDeSOW6+RpwS+/z64+bHtB59
+::fBEirQZwNQPfEVWB+kM9LVsJDDeSOW6+RpwS+/z64+bn
+::cRolqwZ3JBvQF1fEqQIdDTZkaTavCU+bLvU4ycTawqq3h2M6cdAVWa71ug==
+::dhA7uBVwLU+EWHGF90lwGxRYWReWNWS0Zg==
+::YQ03rBFzNR3SWATElA==
+::dhAmsQZ3MwfNWATE1G8iZh5MSWQ=
+::ZQ0/vhVqMQ3MEVWAtB9wSA==
+::Zg8zqx1/OA3MEVWAtB9wSA==
+::dhA7pRFwIByZRRmn5kcxPB4Ubh3CZiuXFPsZ8O2b
+::Zh4grVQjdCuDJEG05k06LRhAcBeSOW6+D7sP/On34/zUnn4NUec7UYHIzrWCLPZApED8cPY=
+::YB416Ek+ZW8=
+::
+::
+::978f952a14a936cc963da21a135fa983
+@echo off
 @echo off
 :: Periksa apakah ANSICON sudah aktif
 if not defined ANSICON (
@@ -1303,7 +1336,7 @@ goto pilmen7
 
 ::::::UTILITES::::::::::::::::
 :pilmen8
-mode 38,20
+mode 38,24
 title UTILITES - SPEED INSTALLv3 ULTIMATE
 set "progutilDir=%~dp0programs\utility"
 cls
@@ -1370,55 +1403,55 @@ if "%zone%"=="0" (
     goto pilmen8
 ) else if "%zone%"=="1" (
     tzutil /s "SE Asia Standard Time"
-    echo Zona waktu telah diubah ke WIB - Jakarta (UTC+07:00)
+    echo Zona waktu telah diubah ke WIB - Jakarta UTC+07:00
     pause
     goto :meu1
 ) else if "%zone%"=="2" (
     tzutil /s "SE Asia Standard Time"
-    echo Zona waktu telah diubah ke Bangkok, Hanoi (UTC+07:00)
+    echo Zona waktu telah diubah ke Bangkok, Hanoi UTC+07:00
     pause
     goto :meu1
 ) else if "%zone%"=="3" (
     tzutil /s "North Asia Standard Time"
-    echo Zona waktu telah diubah ke Krasnoyarsk (UTC+07:00)
+    echo Zona waktu telah diubah ke Krasnoyarsk UTC+07:00
     pause
     goto :meu1
 ) else if "%zone%"=="4" (
     tzutil /s "Singapore Standard Time"
-    echo Zona waktu telah diubah ke WITA - Bali, Makassar (UTC+08:00)
+    echo Zona waktu telah diubah ke WITA - Bali, Makassar UTC+08:00
     pause
     goto :meu1
 ) else if "%zone%"=="5" (
     tzutil /s "China Standard Time"
-    echo Zona waktu telah diubah ke China Standard Time - Beijing (UTC+08:00)
+    echo Zona waktu telah diubah ke China Standard Time - Beijing UTC+08:00
     pause
     goto :meu1
 ) else if "%zone%"=="6" (
     tzutil /s "Tokyo Standard Time"
-    echo Zona waktu telah diubah ke WIT - Ambon, Papua (UTC+09:00)
+    echo Zona waktu telah diubah ke WIT - Ambon, Papua UTC+09:00
     pause
     goto :meu1
 ) else if "%zone%"=="7" (
     tzutil /s "Tokyo Standard Time"
-    echo Zona waktu telah diubah ke Tokyo (UTC+09:00)
+    echo Zona waktu telah diubah ke Tokyo UTC+09:00
     pause
     goto :meu1
 ) else if "%zone%"=="8" (
     tzutil /s "UTC"
-    echo Zona waktu telah diubah ke UTC (UTC+00:00)
+    echo Zona waktu telah diubah ke UTC UTC+00:00
     pause
     goto :meu1
 ) else if "%zone%"=="9" (
     tzutil /s "Eastern Standard Time"
-    echo Zona waktu telah diubah ke Eastern Time (US & Canada) (UTC-05:00)
+    echo Zona waktu telah diubah ke Eastern Time US  Canada UTC-05:00
     pause
     goto :meu1
 ) else if "%zone%"=="10" (
     tzutil /s "Pacific Standard Time"
-    echo Zona waktu telah diubah ke Pacific Time (US & Canada) (UTC-08:00)
+    echo Zona waktu telah diubah ke Pacific Time US  Canada UTC-08:00
     goto :eof
 ) else if "%zone%"=="11" (
-    set /p time="Masukkan waktu baru (HH:MM:SS): "
+    set /p time="Masukkan waktu baru HH:MM:SS: "
     time %time%
     echo Waktu berhasil diubah.
     pause
