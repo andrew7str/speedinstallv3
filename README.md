@@ -64,7 +64,7 @@
 | Part 4 | [Download Part 4](https://qiwi.gg/file/fB6t8292-speedinstallv3)FIX |
 | Part 5 | [Download Part 5](https://qiwi.gg/file/ck5T6226-speedinstallv3)FIX |
 | Part 6 | [Download Part 6](https://qiwi.gg/file/sNsX1712-speedinstallv3)FIX |
-| Part 7 | [Download Part 7](https://qiwi.gg/file/tQff9256-speedinstallv3) |
+| Part 7 | [Download Part 7](https://qiwi.gg/file/8vHL5912-speedinstallv3)FIX |
 | Part 8 | [Download Part 8](https://qiwi.gg/file/oaYi5833-speedinstallv3) |
 | Part 9 | [Download Part 9](https://qiwi.gg/file/ujfr3292-speedinstallv3) |
 | Part 10 | [Download Part 10](https://qiwi.gg/file/dDbD0668-speedinstallv3) |
