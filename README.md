@@ -76,6 +76,12 @@
 | Part 16 | [Download Part 16](https://qiwi.gg/file/dqHh9379-speedinstallv3) |
 | Part 17 | [Download Part 17](https://qiwi.gg/file/ejbg1617-speedinstallv3) |
 
+## Cara Pemakaian
+* Extrack Semua Part dari 1-17 bisa menggunakan [WinRaR](https://www.win-rar.com/download.html?&L=01)
+* Setelah itu Klik/Buka SpeedInstallv3.exe atau SpeedInstallv3.bat
+* Login dengan akun yang anda pesan
+* Pastikan di update dulu untuk FIX bug nya dengan memilih pilihan "3.Update Speed Install" untuk pertama kali pengunduhan.
+* Dan disarankan untuk SnappyDriver nya di update ya eprebadeh agar lebih lengkap lagi source Driver pada semua device yang ingin di kerjakanm
 
 
 ## Pemesanan
