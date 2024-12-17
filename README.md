@@ -54,12 +54,13 @@
 
 
 ## Link Download 84GB 17Part 5GB/Part
-## Link Yang sudah di FIX silahkan di DOWNLOAD :)
+## Link Yang sudah di FIX MF silahkan di DOWNLOAD :)
+Maaf sebelumnya, dikarenakan QIWI.GG tidak bisa menyimpan lama file
 
 | Part | Link |
 |------|------|
 | Part 1 | [Download Part 1](https://www.mediafire.com/file/qx7ao87ftwlyrqp/speedinstallv3.part01.rar/file)FIX MF |
-| Part 2 | [Download Part 2](https://qiwi.gg/file/8MSV4303-speedinstallv3)FIX |
+| Part 2 | [Download Part 2](https://www.mediafire.com/file/xffn29iywtldj11/speedinstallv3.part02.rar/file)FIX MF |
 | Part 3 | [Download Part 3](https://qiwi.gg/file/8hNi2401-speedinstallv3)FIX |
 | Part 4 | [Download Part 4](https://qiwi.gg/file/fB6t8292-speedinstallv3)FIX |
 | Part 5 | [Download Part 5](https://qiwi.gg/file/ck5T6226-speedinstallv3)FIX |
