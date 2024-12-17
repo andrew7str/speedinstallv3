@@ -58,7 +58,7 @@
 
 | Part | Link |
 |------|------|
-| Part 1 | [Download Part 1](https://qiwi.gg/file/vXPF4859-speedinstallv3)FIX |
+| Part 1 | [Download Part 1](https://www.mediafire.com/file/qx7ao87ftwlyrqp/speedinstallv3.part01.rar/file)FIX MF |
 | Part 2 | [Download Part 2](https://qiwi.gg/file/8MSV4303-speedinstallv3)FIX |
 | Part 3 | [Download Part 3](https://qiwi.gg/file/8hNi2401-speedinstallv3)FIX |
 | Part 4 | [Download Part 4](https://qiwi.gg/file/fB6t8292-speedinstallv3)FIX |
