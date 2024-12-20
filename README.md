@@ -76,7 +76,7 @@ Maaf sebelumnya, dikarenakan QIWI.GG tidak bisa menyimpan lama file
 | Part 14 | [Download Part 14](https://qiwi.gg/file/hzWi3947-speedinstallv3) |
 | Part 15 | [Download Part 15](https://qiwi.gg/file/2HYz8091-speedinstallv3) |
 | Part 16 | [Download Part 16](https://qiwi.gg/file/dqHh9379-speedinstallv3) |
-| Part 17 | [Download Part 17](https://qiwi.gg/file/ejbg1617-speedinstallv3) |
+| Part 17 | [Download Part 17](https://drive.google.com/file/d/19-pf1umlviAcXGcWADeZFLPMP-jIdBm0/view?usp=sharing)FIX GD |
 
 ## Cara Pemakaian
 * Extrack Semua Part dari 1-17 bisa menggunakan [WinRaR](https://www.win-rar.com/download.html?&L=01)
