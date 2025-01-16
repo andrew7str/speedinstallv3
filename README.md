@@ -76,7 +76,7 @@ Maaf sebelumnya, dikarenakan QIWI.GG tidak bisa menyimpan lama file
 | Part 9 | [Download Part 9](https://www.mediafire.com/file/3sfr4s89ir3qdc1/speedinstallv3.part09.rar/file)FIX MD |
 | Part 10 | [Download Part 10](https://drive.google.com/file/d/1cKfh1djT9WIN3KldW5WO3hVxERFbvGy4/view?usp=sharing)FIX GD |
 | Part 11 | [Download Part 11](https://drive.google.com/file/d/1Axr3y4VTHsUhTTj-VLaaI3rwmztoVz0B/view?usp=sharing)FIX GD |
-| Part 12 | [Download Part 12](https://qiwi.gg/file/6Khi6787-speedinstallv3)FIX |
+| Part 12 | [Download Part 12](https://drive.google.com/file/d/12os-SIHoTtTaTWxaXFJqqyomQLv2kEkQ/view?usp=sharing)FIX |
 | Part 13 | [Download Part 13](https://qiwi.gg/file/998h5161-speedinstallv3)FIX |
 | Part 14 | [Download Part 14](https://qiwi.gg/file/hzWi3947-speedinstallv3) |
 | Part 15 | [Download Part 15](https://qiwi.gg/file/2HYz8091-speedinstallv3) |
