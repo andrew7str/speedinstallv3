@@ -29,8 +29,8 @@
 
 ## Cara Pemakaian
 
-[Tonton Videonya!](https://www.youtube.com/watch?v=dVzyeCEZoks&t=1s)
-\
+[Tonton Videonya Disini!](https://www.youtube.com/watch?v=dVzyeCEZoks&t=1s)
+
 
 ## 📜 Berikut Beberapa Tampilan pada menu tersebut 🕷🕸️
 ![Home Speed Install](./capture/home.png)
