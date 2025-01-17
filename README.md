@@ -80,7 +80,7 @@ Maaf sebelumnya, dikarenakan QIWI.GG tidak bisa menyimpan lama file
 | Part 13 | [Download Part 13](https://drive.google.com/file/d/1-0lhHqetE-xqxrt0XOsCCVKyBB_dMQKP/view?usp=sharing)FIX GD |
 | Part 14 | [Download Part 14](https://drive.google.com/file/d/1-1ZYWH4s4ZQnv191XCj1-eqtZLb2zkqa/view?usp=sharing)FIX GD |
 | Part 15 | [Download Part 15](https://drive.google.com/file/d/1-8p4nh93YbBL8DVDkDXZbqUoBfEMCkpb/view?usp=sharing)FIX GD |
-| Part 16 | [Download Part 16](https://drive.google.com/file/d/1qGwx0fPZQZWuBovKDSyyIPcZ9S1kyVfd/view?usp=sharing) FIX GD |
+| Part 16 | [Download Part 16](https://drive.google.com/file/d/1qGwx0fPZQZWuBovKDSyyIPcZ9S1kyVfd/view?usp=sharing)FIX GD |
 | Part 17 | [Download Part 17](https://drive.google.com/file/d/19-pf1umlviAcXGcWADeZFLPMP-jIdBm0/view?usp=sharing)FIX GD |
 
 ## Cara Pemakaian
