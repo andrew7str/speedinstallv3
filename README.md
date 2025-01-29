@@ -29,6 +29,13 @@
 
 ## Cara Pemakaian
 
+Pada bagian Auto Install Menu Pertama, akan menginstall beberapa software aplikasi, disarankan tidak menutup proses CMD agar tidak terjadi kesalahan perintah penginstallan. Berikut beberapa aplikasi standart yang di install secara otomatis dan silent pada Menu pertama :
+- ✅ WinRaR
+- ✅ Google Chrome
+- ✅ Mozila FireFox
+- ✅ VLC Player
+- ✅ Zoom
+
 [Tonton Videonya Disini!](https://www.youtube.com/watch?v=dVzyeCEZoks&t=1s)
 
 
