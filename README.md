@@ -48,6 +48,9 @@ Pada bagian Auto Install Menu Pertama, akan menginstall beberapa software aplika
 ## Net Framework
 ![NetFramework Speed Install](./capture/netframework.png)
 
+## Update
+![Update Speed Install](./capture/UpdateSPv3.png)
+
 ## Aktivasi
 - Disarankan untuk mematikan AntiVirus atau Windows defender lainnya untuk melakukan patching, cracking, keygen, atau pun bypass aplikasi utama yang di inginkan.
 ![Aktivasi Speed Install](./capture/aktivasi.png)
