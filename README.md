@@ -43,6 +43,9 @@ Pada bagian Auto Install Menu Pertama, akan menginstall beberapa software aplika
 ![Home Speed Install](./capture/home.png)
 
 ## Software
+- Ada beberapa software sudah di pre-aktivasi sebelumnya, seperti winrar, nitro pdf, bandicam, dll.
+- Jadi tidak usah takut untuk menginstallnya, dan tambahannya untuk laptop baru di install, di sarankan untuk menginstall VCR dan NetFramework.
+
 ![Software Speed Install](./capture/software.png)
 
 ## Net Framework
@@ -53,6 +56,7 @@ Pada bagian Auto Install Menu Pertama, akan menginstall beberapa software aplika
 
 ## Aktivasi
 - Disarankan untuk mematikan AntiVirus atau Windows defender lainnya untuk melakukan patching, cracking, keygen, atau pun bypass aplikasi utama yang di inginkan.
+
 ![Aktivasi Speed Install](./capture/aktivasi.png)
 
 ## Driver
