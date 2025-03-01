@@ -104,6 +104,9 @@ Maaf sebelumnya, dikarenakan QIWI.GG tidak bisa menyimpan lama file
 * Pastikan di update dulu untuk FIX bug nya dengan memilih pilihan "3.Update Speed Install" untuk pertama kali pengunduhan.
 * Dan disarankan untuk SnappyDriver nya di update ya eprebadeh agar lebih lengkap lagi source Driver pada semua device yang ingin di kerjakanm
 
+## NOTICE : BUG Login untuk pengguna Windows 11
+* Di harapkan login sesuai huruf kapital yang telah di daftar
+
 ## Password RaR : 61 76 61 61 6e 74 75 (Convert Hex To ASCII)
 
 ## Pemesanan
