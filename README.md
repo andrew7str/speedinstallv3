@@ -99,7 +99,7 @@ Maaf sebelumnya, dikarenakan QIWI.GG tidak bisa menyimpan lama file
 
 ## Cara Pemakaian
 * Extrack Semua Part dari 1-17 bisa menggunakan [WinRaR](https://www.win-rar.com/download.html?&L=01)
-* Setelah itu Klik/Buka SpeedInstallv3.exe atau SpeedInstallv3.bat
+* Setelah itu Klik/Buka SpeedInstallv3.exe atau SpeedInstallv3.bat dengan kondisi "Administrator"
 * Login dengan akun yang anda pesan
 * Pastikan di update dulu untuk FIX bug nya dengan memilih pilihan "3.Update Speed Install" untuk pertama kali pengunduhan.
 * Dan disarankan untuk SnappyDriver nya di update ya eprebadeh agar lebih lengkap lagi source Driver pada semua device yang ingin di kerjakanm
